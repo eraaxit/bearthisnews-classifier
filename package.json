@@ -1,6 +1,13 @@
 {
-  "name": "bearthisnews-classifier",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "bearthisnews-classifier",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/index.js"
+    },
+    "dependencies": {
+        "natural": "^6.7.2"
+    }
 }

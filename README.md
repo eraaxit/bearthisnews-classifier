@@ -1,5 +1,7 @@
 # bearthisnews-classifier
 
+-   Note: This Readme is just a template for now!
+
 ## Overview
 
 The **bearthisnews-classifier** is an open-source Node.js library written in TypeScript. It is designed to assist the platform called **BearThisNews** in the task of sorting and categorizing data scraped from the web. This project is participating in Hacktoberfest 2023, and we welcome contributions from the open-source community.

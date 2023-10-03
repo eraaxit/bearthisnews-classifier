@@ -3,15 +3,17 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "type": "module",
     "scripts": {
         "build": "tsc",
-        "start": "node build/index.js"
+        "start": "node build/index.js",
+        "test": "jest"
     },
     "dependencies": {
+        "jest": "^29.7.0",
         "natural": "^6.7.2"
     },
     "devDependencies": {
+        "@types/jest": "^29.5.5",
         "@types/node": "^20.8.2"
     }
 }

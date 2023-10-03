@@ -1,5 +1,5 @@
-import natural from "natural";
-import fs from "fs";
+const natural = require("natural");
+const fs = require("fs");
 
 const classifier = new natural.BayesClassifier();
 
@@ -12,16 +12,18 @@ const nonNewsHeadlines = fs
     .split("\n");
 
 // Train the classifier
-newsHeadlines.forEach((headline) => {
+newsHeadlines.forEach((headline: string) => {
     classifier.addDocument(headline, "news");
 });
 
-nonNewsHeadlines.forEach((headline) => {
+nonNewsHeadlines.forEach((headline: string) => {
     classifier.addDocument(headline, "not-news");
 });
 
 classifier.train();
 
-export default function isNews(headline: string): boolean {
+function isNews(headline: string): boolean {
     return classifier.classify(headline) === "news";
 }
+
+module.exports = { isNews };

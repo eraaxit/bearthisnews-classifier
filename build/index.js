@@ -1,5 +1,6 @@
-import natural from "natural";
-import fs from "fs";
+"use strict";
+const natural = require("natural");
+const fs = require("fs");
 const classifier = new natural.BayesClassifier();
 const newsHeadlines = fs
     .readFileSync("./dataset/news.txt", "utf-8")
@@ -15,6 +16,7 @@ nonNewsHeadlines.forEach((headline) => {
     classifier.addDocument(headline, "not-news");
 });
 classifier.train();
-export default function isNews(headline) {
+function isNews(headline) {
     return classifier.classify(headline) === "news";
 }
+module.exports = { isNews };

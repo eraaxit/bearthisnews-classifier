@@ -8,17 +8,17 @@
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+-   [Getting Started](#getting-started)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 ## Getting Started
 
 Before diving into **bearthisnews-classifier**, make sure you have the following prerequisites:
 
-- **Node.js**: Ensure you have Node.js installed on your system. If not, download it from [nodejs.org](https://nodejs.org/).
+-   **Node.js**: Ensure you have Node.js installed on your system. If not, download it from [nodejs.org](https://nodejs.org/).
 
 ## Installation
 
@@ -27,6 +27,7 @@ To integrate this library into your project, you can install it via npm:
 ```bash
 npm install bearthisnews-classifier
 ```
+
 ## Contributing
 
 **bearthisnews-classifier** is an open-source project, and we highly encourage contributions from the community. Whether you want to report a bug, suggest an enhancement, or submit a pull request, please follow our comprehensive contribution guidelines.
@@ -45,7 +46,6 @@ We appreciate suggestions for making the library better. To suggest an enhanceme
 1. Check the issue tracker to ensure your suggestion hasn't been made already. If not, open a new issue.
 2. Clearly describe the enhancement and explain its value, providing examples or use cases if possible.
 
-
 ## Code Contribution
 
 To contribute code to bearthisnews-classifier, follow these steps:
@@ -55,23 +55,27 @@ To contribute code to bearthisnews-classifier, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/bearthisnews-classifier.git
+```
+
+3. Start project
 
 ```
-3. Create a new branch for your work.
+tsc --watch && yarn start
+```
+
+4. Create a new branch for your work.
 
 ```bash
 git checkout -b feature-or-fix-name
-
 ```
-4. Make your changes, adhering to our coding standards (see below).
-5. Write tests to cover your code changes and ensure that existing tests pass.
-6. Commit your changes with a clear and concise message.
-7. Push your changes to your GitHub fork.
+
+5. Make your changes, adhering to our coding standards (see below).
+6. Write tests to cover your code changes and ensure that existing tests pass.
+7. Commit your changes with a clear and concise message.
+8. Push your changes to your GitHub fork.
 
 ```bash
 git push origin feature-or-fix-name
-
-
 ```
 
 8. Open a pull request (PR) against the main repository's **main** branch.

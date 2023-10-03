@@ -3,11 +3,15 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
+    "type": "module",
     "scripts": {
         "build": "tsc",
         "start": "node build/index.js"
     },
     "dependencies": {
         "natural": "^6.7.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.2"
     }
 }

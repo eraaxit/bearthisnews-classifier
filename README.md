@@ -88,7 +88,33 @@ Thank you for considering a contribution to bearthisnews-classifier! Your effort
 
 ## Hacktoberfest 2023
 
-**bearthisnews-classifier** actively participates in Hacktoberfest 2023, a month-long celebration of open source software. If you're interested in contributing to this project, find more information on how to get involved on our Hacktoberfest page.
+Join us in celebrating open source and contributing to bearthisnews-classifier during Hacktoberfest 2023!
+
+Hacktoberfest is an annual month-long event that celebrates open source software and encourages developers to contribute to exciting projects like ours. It's an excellent opportunity to make your mark in the open-source community, learn, and collaborate with developers from around the world.
+
+How to Get Involved:
+Explore Open Issues: Visit our GitHub repository's issue tracker and look for issues tagged with "Hacktoberfest" or any other suitable labels. These are tasks specially selected for Hacktoberfest contributors.
+
+Choose Your Contribution: Pick an issue that aligns with your skills and interests. It could be fixing a bug, adding a new feature, improving documentation, or even addressing technical debt.
+
+Fork the Repository: Fork the bearthisnews-classifier repository to your GitHub account. This creates a copy of the project that you can work on without affecting the main repository.
+
+Create a Branch: Before making changes, create a new branch for your work. This keeps your contributions isolated and makes it easier to create pull requests.
+
+Make Your Contributions:
+
+Write code following our coding standards (see our contribution guidelines).
+Ensure your code includes meaningful comments and follows the project's style guide.
+If you're making code changes, write tests to validate your modifications and ensure existing tests still pass.
+Commit and Push: Commit your changes with clear and concise messages, and push them to your GitHub fork.
+
+Open a Pull Request: Create a pull request (PR) from your fork to the main repository's main branch. Be sure to provide a detailed description of your changes.
+
+Code Review: Your PR will undergo review by maintainers and the community. Be prepared to address feedback and make necessary changes.
+
+Celebrate Your Contribution: Once your PR is accepted and merged, you've successfully contributed to open source! Your efforts make bearthisnews-classifier even better.
+
+
 
 ## License
 

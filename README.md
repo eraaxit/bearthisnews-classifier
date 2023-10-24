@@ -82,10 +82,12 @@ git push origin feature-or-fix-name
 
 ## Testing Guidelines
 
-Thoroughly test your code changes. Use the provided testing framework and run tests locally before opening a pull request. If applicable, create new tests to cover your changes.
 
-Thank you for considering a contribution to bearthisnews-classifier! Your efforts contribute to the success of this project and the open-source community.
+2. Integration Testing
+Integration tests check how different components of the library work together. When writing integration tests:
 
+Identify key interactions between components and test these interactions.
+Focus on scenarios where different parts of the code collaborate, including API calls or data flows.
 ## Hacktoberfest 2023
 
 **bearthisnews-classifier** actively participates in Hacktoberfest 2023, a month-long celebration of open source software. If you're interested in contributing to this project, find more information on how to get involved on our Hacktoberfest page.

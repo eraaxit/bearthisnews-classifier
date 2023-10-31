@@ -15,10 +15,10 @@
 -   [License](#license)
 
 ## Getting Started
+Prerequisites
+Before you dive into integrating bearthisnews-classifier into your project, make sure you have the following prerequisites in place:
 
-Before diving into **bearthisnews-classifier**, make sure you have the following prerequisites:
-
--   **Node.js**: Ensure you have Node.js installed on your system. If not, download it from [nodejs.org](https://nodejs.org/).
+Node.js: Ensure that you have Node.js installed on your system. If it's not already installed, you can download it from the official Node.js website 
 
 ## Installation
 

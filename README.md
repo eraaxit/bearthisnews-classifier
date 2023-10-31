@@ -82,9 +82,14 @@ git push origin feature-or-fix-name
 
 ## Testing Guidelines
 
-Thoroughly test your code changes. Use the provided testing framework and run tests locally before opening a pull request. If applicable, create new tests to cover your changes.
+Proper testing is crucial to ensure the reliability and stability of bearthisnews-classifier. Before submitting your contributions, please follow these testing guidelines:
 
-Thank you for considering a contribution to bearthisnews-classifier! Your efforts contribute to the success of this project and the open-source community.
+1. Unit Testing
+Unit tests help validate the behavior of individual functions and components in the codebase. When writing unit tests:
+
+Use a testing framework such as Jest or Mocha to create and run tests.
+Ensure that each function or component has a corresponding unit test.
+Test various input scenarios, including edge cases and boundary conditions, to assess the code's resilience.
 
 ## Hacktoberfest 2023
 

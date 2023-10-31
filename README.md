@@ -33,11 +33,27 @@ npm install bearthisnews-classifier
 **bearthisnews-classifier** is an open-source project, and we highly encourage contributions from the community. Whether you want to report a bug, suggest an enhancement, or submit a pull request, please follow our comprehensive contribution guidelines.
 
 ## Reporting Bugs
+If you come across a bug or issue while using bearthisnews-classifier, we encourage you to report it. Your feedback is essential in helping us improve the library. To report a bug, please follow these steps:
 
-If you encounter a bug or issue, help us improve by reporting it:
+Check the Issue Tracker: Before reporting a new bug, it's a good idea to check our issue tracker to see if the issue has already been reported by someone else. This can help avoid duplication and streamline the resolution process.
 
-1. Check the **issue tracker** to see if the issue has already been reported. If not, open a new issue.
-2. Provide a detailed description of the bug, including steps to reproduce it, error messages, and relevant information.
+Open a New Issue:
+
+If the bug hasn't been reported yet, open a new issue by clicking on the "New Issue" button in the issue tracker.
+Choose the "Bug Report" template to provide the necessary information.
+Provide a Detailed Description: When reporting a bug, please include the following details:
+
+Title: A concise and informative title that summarizes the issue.
+Description: A detailed description of the bug, including:
+The steps to reproduce the issue.
+Any error messages or unexpected behavior you encountered.
+Information about the environment in which the bug occurred (e.g., Node.js version, operating system).
+Screenshots or Logs: If applicable, provide screenshots or relevant log files that help illustrate the problem.
+Label the Bug: Help us categorize the issue by applying relevant labels, such as "bug" or any other appropriate labels.
+
+Prioritize Severity: If you can, assess the severity of the bug (e.g., minor, major, critical) to give us a sense of its impact.
+
+Engage in Discussion: Once the bug is reported, you may be asked for additional information or clarifications. Please engage in the discussion and provide any requested details promptly.
 
 ## Suggesting Enhancements
 
